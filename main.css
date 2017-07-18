@@ -1,0 +1,61 @@
+body{
+  padding: 4em;
+  background-color: rgb(216, 232, 183);
+}
+
+.searchbox{
+  padding-bottom: .5em;
+}
+
+.searchbox>input{
+  border: 1px solid black;
+  height: 2em;
+  padding-right: 2em;
+  margin-right: 1em;
+}
+
+button{
+  height: 2.5em;
+  border-radius: 5px;
+}
+
+
+ul{
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li{
+  border: 2px solid rgb(68, 133, 231);
+  list-style: none;
+  width: 17em;
+  height: 15em;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  box-shadow: 10px 10px 5px #888888;
+}
+img{
+  width: 10em;
+  height: 10em;
+  padding-left: 4em;
+}
+
+p{
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(219, 151, 71)
+
+}
+
+a{
+  display: flex;
+  margin-left: 7em;
+}
+
+
+hr{
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
